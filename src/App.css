@@ -40,3 +40,23 @@
 .read-the-docs {
   color: #888;
 } */
+:root {
+  /* primary */
+  --tomato: hsl(4, 100%, 67%);
+
+  /* neutral */
+  --dark-slate-grey: hsl(234, 29%, 20%);
+  --charcoal-grey: hsl(235, 18%, 26%);
+  --grey: hsl(231, 7%, 60%);
+  --white: hsl(0, 0%, 100%);
+
+  /* fonts */
+  --main-font: 'Roboto', sans-serif;
+}
+body {
+  font-size: 16px;
+  font-family: var(--main-font);
+  font-weight: 400;
+
+  margin: 0;
+}

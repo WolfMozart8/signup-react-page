@@ -1,9 +1,18 @@
-import Form from "./SignUp/form"
+import Image from "./Image"
+import Info from "./SignUp/Info"
+import Form from "./SignUp/Form"
+
+import "./SignUp.css"
+
 function SignUp() {
   return (
-    <div>
+    <>
+      <Image />
+    <main>
+      <Info />
       <Form />
-    </div>
+    </main>
+    </>
   )
 }
 

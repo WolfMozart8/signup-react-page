@@ -1,7 +1,9 @@
+import "./Image.css"
+
 function Image() {
   return (
-    <div>
-			<img src="../assets/img/illustration-sign-up-mobile.svg" alt="" />
+    <div className="img-container">
+			<img src="/src/assets/img/illustration-sign-up-mobile.svg" alt="image" />
 		</div>
   )
 }

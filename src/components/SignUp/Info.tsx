@@ -1,14 +1,15 @@
-import React from 'react'
+import "./Info.css"
 
 function Info() {
+  const src = "/src/assets/img/icon-list.svg";
   return (
-    <div>
+    <div className='info'>
         <h1>Stay updated!</h1>
         <p>Join 60,000+ product managers receiving monthly updates on:</p>
         <ul>
-            <li><span>:) </span>Product discovery and building what matters</li>
-            <li><span>:) </span>Measuring to ensure updates are a success</li>
-            <li><span>:) </span>And much more!</li>
+            <li><span><img src={src} alt="check icon"/></span>Product discovery and building what matters</li>
+            <li><span><img src={src} alt="check icon"/></span>Measuring to ensure updates are a success</li>
+            <li><span><img src={src} alt="check icon"/></span>And much more!</li>
         </ul>
     </div>
   )

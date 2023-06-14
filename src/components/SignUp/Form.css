@@ -1,0 +1,24 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.form label {
+    color: var(--charcoal-grey);
+    font-size: 12px;
+    font-weight: 700;
+}
+.form input {
+    border: 2px solid #cccccc;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.form input::placeholder {
+    color: var(--grey);
+}

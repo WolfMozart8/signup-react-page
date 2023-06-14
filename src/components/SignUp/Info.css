@@ -1,0 +1,17 @@
+.info h1 {
+    color: var(--dark-slate-grey);
+
+}
+.info ul {
+    padding: 0;
+}
+.info li {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.info p,
+.info li {
+    color: var(--charcoal-grey);
+    font-weight: 400;
+}
