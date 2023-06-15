@@ -24,3 +24,9 @@
 .form input::placeholder {
     color: var(--grey);
 }
+@media (min-width: 768px) {
+    .form input,
+    .form button {
+        font-size: 1em;
+    }
+}

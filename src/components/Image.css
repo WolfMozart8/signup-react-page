@@ -1,5 +1,5 @@
 .img-container img {
-    width: 100%;
+    width: 100vw;
 }
 .img-desktop {
     display: none;
@@ -8,8 +8,13 @@
     .img-mobile {
         display: none;
     }
+    .img-container {
+        max-width: 100%;
+    }
     .img-container img.img-desktop {
         display: block;
         width: auto;
+        height: 90%;
+
     }
 }
