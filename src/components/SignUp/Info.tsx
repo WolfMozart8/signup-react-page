@@ -1,5 +1,5 @@
 import "./Info.css"
-import iconList from "../img/icon-list.svg";
+import iconList from "./../img/icon-list.svg";
 
 function Info() {
 return (

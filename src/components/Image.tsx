@@ -1,6 +1,6 @@
 import "./Image.css"
-import imgMobile from "../img/illustration-sign-up-mobile.svg"
-import imgDesktop from "../img/illustration-sign-up-desktop.svg"
+import imgMobile from "./../img/illustration-sign-up-mobile.svg"
+import imgDesktop from "./../img/illustration-sign-up-desktop.svg"
 
 function Image() {
   return (

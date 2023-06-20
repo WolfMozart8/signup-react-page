@@ -3,7 +3,7 @@ import PagesContext from '../context/page-context'
 import Button from '../components/UI/Button'
 
 import "./Submited.css"
-import IconSuccess from "../img/icon-success.svg";
+import IconSuccess from "./../img/icon-success.svg";
 
 const Submited = () => {
     const pages = useContext(PagesContext)
