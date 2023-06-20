@@ -24,6 +24,21 @@
 .form input::placeholder {
     color: var(--grey);
 }
+
+/* error */
+.input-container.error label {
+    display: flex;
+    justify-content: space-between;
+}
+.input-container.error input {
+    color: var(--tomato);
+    outline: var(--tomato);
+    background-color: rgba(255, 98, 87, 0.413);
+}
+.input-container.error .error-msg {
+    color: var(--tomato);
+}
+
 @media (min-width: 768px) {
     .form input,
     .form button {

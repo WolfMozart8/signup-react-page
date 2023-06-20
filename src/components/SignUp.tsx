@@ -4,13 +4,13 @@ import Form from "./SignUp/Form"
 
 import "./SignUp.css"
 
-function SignUp() {
+const SignUp = () => {
   return (
     <>
       <Image />
     <main>
       <Info />
-      <Form />
+      <Form/>
     </main>
     </>
   )

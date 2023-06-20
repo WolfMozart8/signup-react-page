@@ -54,6 +54,8 @@
   --main-font: 'Roboto', sans-serif;
 }
 body {
+  background-color: var(--charcoal-grey);
+
   font-size: 16px;
   font-family: var(--main-font);
   font-weight: 400;
@@ -64,7 +66,15 @@ body {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 768px) {
+#root {
+  background-color: var(--white);
+}
+
+
+@media (min-width: 768px) {
+  #root {
+    border-radius: 30px;
+  }
   body {
     justify-content: center;
   }
