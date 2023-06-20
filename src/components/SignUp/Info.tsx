@@ -1,7 +1,7 @@
 import "./Info.css"
 
 function Info() {
-  const src = "/img/icon-list.svg";
+  const src = "./img/icon-list.svg";
   return (
     <div className='info'>
         <h1>Stay updated!</h1>
