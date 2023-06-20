@@ -3,6 +3,7 @@ import PagesContext from '../context/page-context'
 import Button from '../components/UI/Button'
 
 import "./Submited.css"
+import IconSuccess from "../img/icon-success.svg";
 
 const Submited = () => {
     const pages = useContext(PagesContext)
@@ -13,7 +14,7 @@ const Submited = () => {
   return (
     <main className='submited'>
         <div>
-        <img src={"../img/icon-success.svg"} alt="icon success" />
+        <img src={IconSuccess} alt="icon success" />
         <h1>Thanks for subscribing!</h1>
         <p>A confirmation email has been sent to <strong>{pages?.email}</strong>.
   Please open it and click the button inside to confirm your subscription.</p>
